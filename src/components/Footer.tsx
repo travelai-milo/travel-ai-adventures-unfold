@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/0fa9a912-de75-45dc-b0fc-ed1906d81160.png"
+                src="/image2.png"
                 alt="TravelAI Logo" 
                 className="h-10 mr-3 bg-white p-1 rounded-full"
               />
