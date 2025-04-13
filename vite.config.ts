@@ -3,23 +3,24 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// Replace this with your actual GitHub repo name
-const repoName = 'travel-ai-adventures-unfold';
+const isGitHubPages = process.env.NODE_ENV === "production";
 
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? `/${repoName}/` : '/',
+// 🟡 Set your GitHub repo name here:
+const repoName = "travel-ai-adventures-unfold";
 
+export default defineConfig({
+  base: isGitHubPages ? `/${repoName}/` : "/",
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
+    !isGitHubPages && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+});
