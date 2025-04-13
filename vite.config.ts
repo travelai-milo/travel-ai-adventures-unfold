@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/travel-ai-adventures-unfold/',// https://github.com/travelai-milo/travel-ai-adventures-unfold
+
   server: {
     host: "::",
     port: 8080,
