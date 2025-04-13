@@ -67,7 +67,7 @@ const HowItWorks = () => {
           <div className="bg-gray-50 p-6 md:p-10 rounded-2xl max-w-3xl">
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <img 
-                src="/public/lovable-uploads/99529973-d20c-40f7-91cf-41a4868542ca.png" 
+                src="/travel-ai-adventures-unfold/99529973-d20c-40f7-91cf-41a4868542ca.png"
                 alt="TravelAI App Interface" 
                 className="w-full md:w-1/2 rounded-lg shadow-md"
               />
