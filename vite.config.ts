@@ -9,7 +9,7 @@ const isGitHubPages = process.env.NODE_ENV === "production";
 const repoName = "travel-ai-adventures-unfold";
 
 export default defineConfig({
-  base: isGitHubPages ? `/${repoName}/` : "/",
+  base: "/travel-ai-adventures-unfold/",
   server: {
     host: "::",
     port: 8080,
