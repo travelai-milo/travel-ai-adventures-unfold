@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MessageSquareText, Sparkles, CalendarCheck, MapPin } from "lucide-react";
 
@@ -68,7 +67,7 @@ const HowItWorks = () => {
           <div className="bg-gray-50 p-6 md:p-10 rounded-2xl max-w-3xl">
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <img 
-                src="/public/lovable-uploads/f657fe3a-d994-4783-8d2d-1ae07f687ab0.png" 
+                src="/public/lovable-uploads/99529973-d20c-40f7-91cf-41a4868542ca.png" 
                 alt="TravelAI App Interface" 
                 className="w-full md:w-1/2 rounded-lg shadow-md"
               />
