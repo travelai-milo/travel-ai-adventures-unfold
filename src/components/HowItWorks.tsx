@@ -42,7 +42,7 @@ const HowItWorks = () => {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative">
             {/* Connection Line */}
             <div className="absolute left-8 top-10 bottom-10 w-1 bg-gray-200 hidden md:block"></div>
@@ -62,14 +62,27 @@ const HowItWorks = () => {
               ))}
             </div>
           </div>
+          
+          <div className="relative">
+            <img 
+              src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              alt="Using TravelAI" 
+              className="rounded-lg shadow-lg w-full"
+            />
+            <img 
+              src="/public/lovable-uploads/f657fe3a-d994-4783-8d2d-1ae07f687ab0.png" 
+              alt="TravelAI App Interface" 
+              className="absolute -bottom-10 -right-10 w-2/3 rounded-lg shadow-xl border-4 border-white"
+            />
+          </div>
         </div>
 
         <div className="mt-16 flex justify-center">
           <div className="bg-gray-50 p-6 md:p-10 rounded-2xl max-w-3xl">
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <img 
-                src="/public/lovable-uploads/f657fe3a-d994-4783-8d2d-1ae07f687ab0.png" 
-                alt="TravelAI App Interface" 
+                src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                alt="AI Conversation Example" 
                 className="w-full md:w-1/2 rounded-lg shadow-md"
               />
               <div>

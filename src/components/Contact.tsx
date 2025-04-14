@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto bg-gray-50 rounded-2xl overflow-hidden shadow-lg">
-          <div className="flex flex-col md:flex-row">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row items-stretch overflow-hidden rounded-2xl shadow-lg">
             <div className="md:w-1/2 bg-brand-blue p-10 md:p-12 text-white flex flex-col justify-center">
               <h2 className="text-3xl font-bold mb-6">Get Early Access</h2>
               <p className="mb-6">
@@ -33,7 +33,13 @@ const Contact = () => {
                   <span>Direct feedback channel to our development team</span>
                 </li>
               </ul>
-              <div className="mt-auto">
+              
+              <div className="hidden md:block mt-auto">
+                <img 
+                  src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Travel destinations" 
+                  className="rounded-lg opacity-90 mb-6"
+                />
                 <div className="flex items-center">
                   <img 
                     src="/public/lovable-uploads/0fa9a912-de75-45dc-b0fc-ed1906d81160.png" 
@@ -45,7 +51,7 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-10 md:p-12">
+            <div className="md:w-1/2 p-10 md:p-12 bg-gray-50">
               <h3 className="text-2xl font-semibold mb-6">Join Our Waitlist</h3>
               <p className="text-gray-600 mb-8">
                 Fill out the form below to reserve your spot and be notified when TravelAI launches.

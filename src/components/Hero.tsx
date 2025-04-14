@@ -12,7 +12,7 @@ const Hero = () => {
           className="absolute inset-0 bg-gradient-to-r from-brand-black/70 to-brand-blue/30 z-10"
         ></div>
         <img 
-          src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+          src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
           alt="Travel backdrop" 
           className="w-full h-full object-cover"
         />
@@ -46,6 +46,30 @@ const Hero = () => {
             >
               Learn How It Works
             </Button>
+          </div>
+          
+          <div className="mt-12 flex gap-4 flex-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1488085061387-422e29b40080?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+              alt="Destination 1" 
+              className="h-16 w-16 rounded-full object-cover border-2 border-white"
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+              alt="Destination 2" 
+              className="h-16 w-16 rounded-full object-cover border-2 border-white"
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1534366428-e54c1db30cbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+              alt="Destination 3" 
+              className="h-16 w-16 rounded-full object-cover border-2 border-white"
+            />
+            <div className="h-16 w-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white font-bold">
+              +50
+            </div>
+            <div className="flex items-center text-white ml-2">
+              <span>Popular destinations available</span>
+            </div>
           </div>
         </div>
       </div>
