@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/public/99529973-d20c-40f7-91cf-41a4868542ca.png"
+            src="/99529973-d20c-40f7-91cf-41a4868542ca.png"
             alt="TravelAI Logo" 
             className="h-10"
           />
