@@ -62,14 +62,6 @@ const Features = () => {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 flex justify-center">
-          <img 
-            src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
-            alt="Travel destinations collage" 
-            className="rounded-lg shadow-lg w-full max-w-4xl"
-          />
-        </div>
       </div>
     </section>
   );
