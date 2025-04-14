@@ -26,7 +26,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/mzzeowgl", {
+      const response = await fetch("https://formspree.io/f/your-formspree-endpoint", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
