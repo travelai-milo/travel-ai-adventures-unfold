@@ -13,23 +13,13 @@ const Footer = () => {
       { name: "Early Access", href: "#contact" },
     ],
     company: [
-      { name: "About Us", href: "#" },
-      { name: "Careers", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Press", href: "#" },
-    ],
-    legal: [
-      { name: "Privacy Policy", href: "#" },
-      { name: "Terms of Service", href: "#" },
-      { name: "Cookie Policy", href: "#" },
+      { name: "About Us", href: "#" }
     ],
   };
 
   const socialLinks = [
-    { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
     { icon: <Instagram size={20} />, href: "#", label: "Instagram" },
     { icon: <Linkedin size={20} />, href: "#", label: "LinkedIn" },
-    { icon: <Github size={20} />, href: "#", label: "GitHub" },
   ];
 
   return (
@@ -94,21 +84,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Legal</h3>
-            <ul className="space-y-2">
-              {footerLinks.legal.map((link, index) => (
-                <li key={index}>
-                  <a 
-                    href={link.href} 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 mt-8 text-center sm:text-left sm:flex sm:justify-between sm:items-center">
