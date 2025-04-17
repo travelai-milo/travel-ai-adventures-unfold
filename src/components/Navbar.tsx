@@ -36,7 +36,7 @@ const Navbar = () => {
           <img 
             src="/99529973-d20c-40f7-91cf-41a4868542ca.png"
             alt="TravelAI Logo" 
-            className="h-10"
+            className="h-16"
           />
         </div>
 
